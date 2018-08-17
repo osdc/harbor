@@ -1,11 +1,13 @@
 {
-	"manifest_version": 2,
 	"name": "Harbor",
   	"version": "1.0",
-
   	"description": "Cyberoam’s authentication client",
-
+  	"permissions": ["declarativeContent", "storage"],
   	"background": {
       "scripts": ["harbor.js"]
-    }
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2
 }

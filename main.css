@@ -1,0 +1,136 @@
+body {
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background-color: #5E2E91;
+	width: 260px;
+	min-height: 400px;
+}
+
+.main {
+	min-height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background-color: #5E2E91;
+}
+
+.ssp {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heading-logo {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.sub-title {
+	margin-top: -40px;
+	margin-bottom: 50px;
+	font-size: 16px;
+	font-family: 'Source Sans Pro',sans-serif;
+	color: white;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.form {
+	width: 93%;
+	min-height: 200px;
+	background-color: white;
+	box-shadow: 0 3px 15px 0 rgba(0,0,0,0.4);
+	border-radius: 3px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 70px;
+	animation: formAppear 450ms ease-in 1 forwards;
+}
+
+@keyframes formAppear {
+	0% {
+		opacity: 0;
+		transform: scale(0.5) rotateX(-90deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1) rotateX(0deg);
+	}
+}
+
+@keyframes appearFromBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.input-box {
+	height: 30px;
+	width: 87%;
+	border: 0px;
+	letter-spacing: 0.1px;
+	border-bottom: 2px solid #eceff1;
+	padding-left: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	opacity: 0;
+	transform: translateY(10px);
+	color: #445a64;
+}
+
+.input-box:focus {
+	outline: none;
+	border-bottom: 2px solid #764ba2;
+  transition: border-color 1s cubic-bezier(0,.92,.57,1.07);
+}
+
+.input-box::placeholder {
+	color: #b0bec5;
+}
+
+#enno {
+	animation: appearFromBottom 450ms ease-in 1 forwards;
+	animation-delay: 200ms;
+}
+
+#pass {
+	animation: appearFromBottom 450ms ease-in 1 forwards;
+	animation-delay: 400ms;
+}
+
+.login-button {
+	height: 35px;
+	width: 100px;
+	position: absolute;
+	bottom: -17px;
+	left: 67px;
+	background-color: #AFF7F0;
+	border-radius: 500px;
+	border: 0px;
+	box-shadow: 0 3px 15px 0 rgba(0,0,0,0.4);
+	color: #455a64;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	animation: appearFromBottom 500ms ease-in 1 forwards;
+	animation-delay: 600ms;
+	opacity: 0;
+	transform: translateY(10px);
+}
+
+.login-button:hover {
+	cursor: pointer;
+	color: #263238;
+}
+

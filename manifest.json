@@ -6,7 +6,7 @@
   	"background": {
       "scripts": ["harbor.js"]
     },
-    "page_action": {
+    "browser_action": {
       "default_popup": "popup.html"
     },
     "manifest_version": 2

@@ -10,7 +10,7 @@ A chrome extension for Cyberoam authentication with functionalities of login/log
 
 - Click on load unpacked and select harbor. Voila your extension is ready!
 
-- In case of any dilemmas you can create an issue or reach us at our [slack channel](https://jiit-lug.slack.com/). 
+- In case of any dilemmas you can create an issue or reach us at our [slack channel](https://jiit-lug.slack.com/messages). 
 
 This project requires a basic understanding of how chrome extensions are build. For info on that you may want to head on to [Chrome's official extension overview](https://developer.chrome.com/extensions/overview). Also there's a list of beginner-friendly [sample extensions](https://developers.chrome.com/extensions/samples) which you may like.
 

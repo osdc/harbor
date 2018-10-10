@@ -6,7 +6,7 @@ A chrome extension for Cyberoam authentication with functionalities of login/log
 
 - Fork this repo and then clone the repo with `git clone https://github.com/osdc/harbor.git` or you can use ssh too.
 
-- Now open chrome, naviagate to **Options** > **More tools** > **Extensions**
+- Now open chrome, navigate to **Options** > **More tools** > **Extensions**
 
 - Click on load unpacked and select harbor. Voila your extension is ready!
 
